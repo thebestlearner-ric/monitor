@@ -1,0 +1,9 @@
+version: '3'
+services:
+  monitor:
+    image: website-check:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./results.log:/app/results.log
+      - ./files/website.csv:/app/files/website.csv

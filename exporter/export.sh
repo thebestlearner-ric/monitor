@@ -35,14 +35,15 @@ probeURL() {
       
 }
 
+
 init
 getURL
 probeURL
 # Print the URLs for testing
-for url in "${URL_ARRAY[@]}"; do
-    echo "$url"
-done
-# Print the URLs for testing
-for response in "${RESPONSE_ARRAY[@]}"; do
-    timestamp "$response"
-done
+# for url in "${URL_ARRAY[@]}"; do
+#     echo "$url"
+# done
+# # Print the URLs for testing
+# for response in "${RESPONSE_ARRAY[@]}"; do
+#     timestamp "$response"
+# done
