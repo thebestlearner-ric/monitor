@@ -7,9 +7,7 @@ timestamp() {
 }
 
 init() {
-
     URL_ARRAY=()
-    DOMAIN_ARRAY=()
     RESPONSE_ARRAY=()
 }
 
@@ -20,7 +18,6 @@ getURL() {
         url=$(echo "$line" | awk -F "," '{print $2}')
         domain_name=$(echo "$line" | awk -F "," '{print $1}')
         URL_ARRAY+=("$url")
-        # DOMAIN_ARRAY+=("$domain_name")
     done < "$FILE"
 }
 
@@ -31,14 +28,20 @@ probeURL() {
         result=$(curl -X GET -s -I --location "$url")
         status_code=$(echo "$result" | awk '/^HTTP/{print $2}')
         RESPONSE_ARRAY+=("$status_code|$url")
-    done
-      
+    done      
 }
 
+writeToFile() {
+    for response in "${RESPONSE_ARRAY[@]}"; do
+        echo "$response" >> $RESULTS_FILE 
+    done
+}
 
 init
 getURL
 probeURL
+writeToFile
+
 # Print the URLs for testing
 # for url in "${URL_ARRAY[@]}"; do
 #     echo "$url"

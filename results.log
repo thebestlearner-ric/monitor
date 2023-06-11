@@ -1,66 +1,12 @@
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-File URL
-https://www.allrecipes.com/
-https://www.foodnetwork.com/
-https://www.delish.com/
-https://www.epicurious.com/
-https://www.bbc.co.uk/food
-https://www.marthastewart.com/
-https://www.cookinglight.com/
-https://www.bonappetit.com/
-https://www.seriouseats.com/
-https://www.simplyrecipes.com/
-2023-06-10 07:45:55 -> |File URL
-2023-06-10 07:45:55 -> |https://www.allrecipes.com/
-2023-06-10 07:45:55 -> |https://www.foodnetwork.com/
-2023-06-10 07:45:55 -> |https://www.delish.com/
-2023-06-10 07:45:55 -> |https://www.epicurious.com/
-2023-06-10 07:45:55 -> |https://www.bbc.co.uk/food
-2023-06-10 07:45:55 -> |https://www.marthastewart.com/
-2023-06-10 07:45:55 -> |https://www.cookinglight.com/
-2023-06-10 07:45:55 -> |https://www.bonappetit.com/
-2023-06-10 07:45:55 -> |https://www.seriouseats.com/
-2023-06-10 07:45:55 -> |https://www.simplyrecipes.com/
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-/app/export.sh: line 31: curl: command not found
-File URL
-https://www.allrecipes.com/
-https://www.foodnetwork.com/
-https://www.delish.com/
-https://www.epicurious.com/
-https://www.bbc.co.uk/food
-https://www.marthastewart.com/
-https://www.cookinglight.com/
-https://www.bonappetit.com/
-https://www.seriouseats.com/
-https://www.simplyrecipes.com/
-2023-06-10 07:53:29 -> |File URL
-2023-06-10 07:53:29 -> |https://www.allrecipes.com/
-2023-06-10 07:53:29 -> |https://www.foodnetwork.com/
-2023-06-10 07:53:29 -> |https://www.delish.com/
-2023-06-10 07:53:29 -> |https://www.epicurious.com/
-2023-06-10 07:53:29 -> |https://www.bbc.co.uk/food
-2023-06-10 07:53:29 -> |https://www.marthastewart.com/
-2023-06-10 07:53:29 -> |https://www.cookinglight.com/
-2023-06-10 07:53:29 -> |https://www.bonappetit.com/
-2023-06-10 07:53:29 -> |https://www.seriouseats.com/
-2023-06-10 07:53:29 -> |https://www.simplyrecipes.com/
+|File URL
+200|https://www.allrecipes.com/
+200|https://www.foodnetwork.com/
+200|https://www.delish.com/
+200|https://www.epicurious.com/
+200|https://www.bbc.co.uk/food
+200|https://www.marthastewart.com/
+301
+200|https://www.cookinglight.com/
+200|https://www.bonappetit.com/
+200|https://www.seriouseats.com/
+200|https://www.simplyrecipes.com/
